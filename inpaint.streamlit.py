@@ -92,7 +92,7 @@ if test:
         # 加载模型
         g = InpaintGenerator(opt)
         g.eval()
-        model_path = "model/g.pdparams"
+        model_path = "model/d.pdparams"
         # model_path = "output_coarse2fine/model/g.pdparams" 
         
         para = paddle.load(model_path)
