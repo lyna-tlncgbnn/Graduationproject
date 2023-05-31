@@ -3,5 +3,5 @@ numpy
 Pillow
 paddlepaddle-gpu==2.2.0rc0
 pandas
-opencv-python
+opencv-python-headless
 visualdl==2.4.0
